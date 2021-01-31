@@ -18,8 +18,7 @@ setcookie("micookie", "valor de mi cookie");
 // Cookie con expiración (un año);
 
 setcookie("unyear", "365 dias", time() + (60*60*24*365));
-
+header('Location:ver_cookies.php');
 
 ?>
 
-<a href="ver_cookies.php">Ver las cookies</a>

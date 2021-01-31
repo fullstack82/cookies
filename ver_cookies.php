@@ -22,3 +22,4 @@ if(isset($_COOKIE['unyear'])){
 ?>
 
 <a href="borrar_cookies.php">Borrar cookies</a>
+<a href="crear_cookies.php">Crear cookies</a>
