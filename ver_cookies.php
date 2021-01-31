@@ -18,3 +18,7 @@ if(isset($_COOKIE['unyear'])){
 }else{
     echo 'No existe la cookie';
 }
+
+?>
+
+<a href="borrar_cookies.php">Borrar cookies</a>
